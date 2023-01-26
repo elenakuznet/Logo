@@ -18,7 +18,7 @@ body {
     line-height: 31px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
-    background: rgba(47, 50, 75, 0.85);
+    background-color: rgba(47, 50, 75, 0.85);
 }
 
 
@@ -81,4 +81,10 @@ iframe {
     max-width: 1260px;
     padding: 0 30px;
     margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px; 
+    }
 }

@@ -15,86 +15,101 @@
         <div class="container header__inner">
             <div class="header__wrapper">
                 <div class="logo">
-                    <img class="logo__image" src="image/Logo.svg" alt="">
+                    <img class="logo__image" src="image/Logo.svg" alt="лого">
                 </div>
                 <div class="phone">
-                    <a href="">+7 (962) 556 - 1234</a>
-                    <p>Перезвоните мне</p>
+                    <a class="phone__number" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+                    <a class="phone__link" href="tel:+79625561234">Перезвоните мне</a>
+                </div>
+                <div class="header__image">
+                    <a href="tel:+79625561234"><img src="image/Phone.png" alt="иконка телефона"></a>
                 </div>
             </div>
             <section class="section promo">
-                <div class="container">
                     <h1 class="promo__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
-                    <p class="promo__subtitle">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
-                    <button class="promo__button" type="button">Подробнее</button>
-                </div>
+                    <p class="promo__subtitle">
+                        Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более<span class="hide">менее осмысленного текста рыбы на русском языке, а начинающему</span>.
+                    </p>
+                    <button class="button promo__button" type="button"><a href="#advantages">Подробнее</a></button>
             </section>
         </div>    
-    </header>
-    <main> 
-            <section class="section advantages">
+    </header> 
+    <main>
+            <section class="section advantages" id="advantages">
                 <div class="advantages__content">
-                <h2 class="advantages__title">Уникальный заголовок для преимущества компании</h2>
-                <p class="advantages__subtitle">О нас</p>
-                <p class="advantages__text">
-                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
-                </p>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Первое целевое преимущество</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Первое целевое преимущество</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Первое целевое преимущество</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Первое целевое преимущество</p>
-                    </div>
+                    <h2 class="advantages__title ">Уникальный заголовок для преимущества компании</h2>
+                    <p class="advantages__subtitle">О нас</p>
+                    <p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
+                    </p>
                 </div>
-            </div>
-            </section>
+                <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <div class="round"><span class="round__number">1</span></div>
+                            <p class="advantages__count">Первое целевое преимущество</p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="round"><span class="round__number">2</span></div>
+                            <p class="advantages__count">Второе целевое преимущество</p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="round"><span class="round__number">3</span></div>
+                            <p class="advantages__count">Третье целевое преимущество</p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="round"><span class="round__number">4</span></div>
+                            <p class="advantages__count">Четвертое целевое преимущество</p>
+                        </li>
+                    </ul>
+            </section> 
             <section class="section contact">
-                <div class="container">
-                <h2>Остались вопросы?</h2>
-                <p>Оставьте номер телефона, и мы перезвоним вам</p>
-                <form action="">
-                    <label for="">
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <input type="text">
-                    </label>
-                    <button>позвоните мне</button>
+                <div class="container contact__inner">
+                <h2 class="contact__title">Остались вопросы?</h2>
+                <p class="contact__subtitle">Оставьте номер телефона, и мы перезвоним вам</p>
+                <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <fieldset class="contact__form">
+                        <label for="">
+                            <input class="contact__input" type="text" name="name" placeholder="Ваше имя" required>
+                        </label>
+                        <label for="">
+                            <input class="contact__input" type="tel" name="tel" placeholder="Телефон" required>
+                        </label>
+                        <label for="">
+                            <input class="contact__input" type="email" name="email" placeholder="E-mail" required>
+                        </label>
+                    </fieldset>
+                    <button class="button contact__button" type="submit">позвоните мне</button>
                 </form>
-                Я даю своё согласие на обработку моих персональных данных.
+                <p class="contact__text">Я даю своё <a class="contact__link" href="">согласие</a>  на обработку моих персональных данных.</p>
             </div>
             </section>
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="logo">
-                <img src="" alt="">
+            <div class="footer__wrapper">
+                <div class="footer__logo"> 
+                    <div class="logo">
+                        <img class="logo__image" src="image/Logo.svg" alt="">
+                    </div>
+                <p class="footer__text">© 2022 XXXcompany. 
+    Все права защищены.
+                </p> 
             </div>
-            <p>
-                © 2022 XXXcompany. 
-Все права защищены.
-            </p> 
-            <a href="">Сделано в Ивановым Иваном</a>
-            <div>
-                <a href="">+7 (962) 556 - 1234</a>
-                <p>Перезвоните мне</p>
+            <div class="footer__info">
+                <p>Сделано в Ивановым Иваном</p>
             </div>
-        </div>
-
+            
+            <div class="phone">
+                <a class="phone__number" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+                <a class="phone__link" href="tel:+79625561234">Перезвоните мне</a>
+            </div>
+            <div class="header__image">
+                <a href="tel:+79625561234"><img src="image/Phone.png" alt="иконка телефона"></a>
+            </div>
+            </div>
+        </div> 
     </footer>
+    <div class="made">
+        <p>Сделано в Ивановым Иваном</p>
+    </div>
 </body>
 </html>

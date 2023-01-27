@@ -13,12 +13,8 @@
 .footer__logo {
     display: flex;
     justify-content: space-between;
-    gap: 31px;
+    gap: 19px;
     align-items: center;
-}
-
-.phone {
-    padding-right: 30px;
 }
 
 .footer__text {
@@ -26,7 +22,8 @@
     font-size: 12px;
     line-height: 17px;
     color: #FFFFFF;
-    white-space: pre-line;
+    text-align: left;
+    /* white-space: pre-line; */
 }
 
 .footer__info {

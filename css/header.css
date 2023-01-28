@@ -45,7 +45,7 @@
     align-items: center;
 }
 
-.phone__number {
+.call__number {
     font-weight: 400;
     font-size: 23.85px;
     line-height: 28px;
@@ -53,7 +53,7 @@
     color: #FFFFFF;
 }
 
-.header__image {
+.call__image {
     display: none;
     /* width: 24px;
     height: 24px; */
@@ -64,7 +64,7 @@
     padding-right: 110px;
 }
 
-.phone__link {
+.call__link {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -103,6 +103,7 @@
 }
 
 .promo__button {
+    display: inline-block; 
     padding: 12px 48px;
 }
 
@@ -115,12 +116,12 @@
         margin-bottom: 70px;
     }
     
-    .phone__number {
+    .call__number {
         font-size: 21px;
         line-height: 25px;
     }
 
-    .phone__link {
+    .сall__link {
         font-size: 13px;
         line-height: 15px;
     }
@@ -161,11 +162,11 @@
         margin-bottom: 65px;
     }
 
-    .phone {
+    .call__text {
         display: none;
     }
 
-    .header__image {
+    .call__image {
         /* display: none; */
         display: inline;
         width: 24px;

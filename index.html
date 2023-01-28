@@ -18,8 +18,8 @@
                     <img class="logo__image" src="image/Logo.svg" alt="лого">
                 </div>
                 <div class="call">
-                    <a class="phone__number" href="tel:+79625561234"><p class="phone">+7 (962) 556 - 1234</p><img class="header__image" src="image/Phone.png" alt="иконка телефона"></a>
-                    <a href="#contact"><p class="phone phone__link">Перезвоните мне</p></a>
+                    <a class="call__number" href="tel:+79625561234"><p class="call__text">+7 (962) 556 - 1234</p><img class="call__image" src="image/Phone.png" alt="иконка телефона"></a>
+                    <a class="call__link" href="#contact"><p class="call__text">Перезвоните мне</p></a>
                 </div>   
             </div>
             <section class="section promo">
@@ -27,7 +27,7 @@
                     <p class="promo__subtitle">
                         Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более <span class="hide"> менее осмысленного текста рыбы на русском языке, а начинающему</span>.
                     </p>
-                    <button class="button promo__button" type="button"><a href="#advantages">Подробнее</a></button>
+                    <a href="#advantages" class="button promo__button">Подробнее</a>
             </section>
         </div>    
     </header> 
@@ -64,15 +64,9 @@
                 <p class="contact__subtitle">Оставьте номер телефона, и мы перезвоним вам</p>
                 <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
                     <fieldset class="contact__form">
-                        <label for="">
                             <input class="contact__input" type="text" name="name" placeholder="Ваше имя" required>
-                        </label>
-                        <label for="">
                             <input class="contact__input" type="tel" name="tel" placeholder="Телефон" required>
-                        </label>
-                        <label for="">
                             <input class="contact__input" type="email" name="email" placeholder="E-mail" required>
-                        </label>
                     </fieldset>
                     <button class="button contact__button" type="submit">позвоните мне</button>
                 </form>
@@ -93,17 +87,17 @@
                     </div>
             </div>
             <div class="footer__info">
-                <p>Сделано в Ивановым Иваном</p>
+                <p class="footer__content">Сделано в Ивановым Иваном</p>
             </div>
             <div class="call">
-                <a class="phone__number" href="tel:+79625561234"><p class="phone">+7 (962) 556 - 1234</p><img class="header__image" src="image/Phone.png" alt="иконка телефона"></a>
-                <a href="#contact"><p class="phone__link phone">Перезвоните мне</p></a>
-            </div>
+                <a class="call__number" href="tel:+79625561234"><p class="call__text">+7 (962) 556 - 1234</p><img class="call__image" src="image/Phone.png" alt="иконка телефона"></a>
+                <a class="call__link" href="#contact"><p class="call__text">Перезвоните мне</p></a>
+            </div> 
             </div>
         </div> 
     </footer>
-    <div class="made">
+    <!-- <div class="made">
         <p>Сделано в Ивановым Иваном</p>
-    </div>
+    </div> -->
 </body>
 </html>

@@ -78,7 +78,7 @@
 
 @media (max-width: 1024px) {
     .contact {
-        padding-top: 70px;
+        padding-top: 74px;
         padding-bottom: 56px;
     }
 
@@ -86,21 +86,35 @@
         font-size: 32px;
         line-height: 38px;
         margin-bottom: 16px;
+        padding: 0;
     }
 
     .contact__subtitle {
         font-size: 20px;
-        line-height: 23px;
+        line-height: 23px;    
+        padding-left: 15px;
+        margin-bottom: 49px;
     }
 
     .contact__form {
-        gap: 15px;
-        margin-bottom: 45px;
+        gap: 16px;
+        max-width: 379px;
+        margin-bottom: 50px;
+    }
+
+    .contact__input {
+        padding: 8px 23px;
+        font-size: 20px;
+        line-height: 23px;
+        border: 2px solid #FFFFFF;
     }
 
     .contact__button {
-        padding: 10px 26px;
+        padding: 11px 38px;
         margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
     }
 
     .contact__text {
@@ -111,16 +125,18 @@
 
 @media (max-width: 480px) {
     .contact {
-        padding: 30px 0;
+        padding-top: 33px;
+        padding-bottom: 28px;
     }
 
     .contact__title {
         font-size: 20px;
         line-height: 23px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
 
     .contact__subtitle {
+        padding: 0;
         font-size: 12px;
         line-height: 14px;
         margin-bottom: 35px;
@@ -128,6 +144,8 @@
 
     .contact__form {
         max-width: 377px;
+        gap: 12px;
+        margin-bottom: 43px;
     }
 
     .contact__input {
@@ -136,9 +154,17 @@
         line-height: 16px;
     }
 
+    .contact__input::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
     .contact__button {
         font-size: 16px;
         line-height: 19px;
+        padding: 9px 26px;
+        min-width: 174px;
     }
 
     .contact__text {

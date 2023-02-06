@@ -39,7 +39,7 @@
 
 @media (max-width: 1024px) {
     .footer {
-        padding-top: 37px;
+        padding-top: 41px;
         padding-bottom: 49px;
     }
     
@@ -49,6 +49,10 @@
 
     .footer__content {
         opacity: 0.5;
+    }
+
+    .hidden {
+        display: none;
     }
 }
 
@@ -102,7 +106,6 @@
         opacity: 0.5;
         padding: 15px 0;
     }  */
-
 }
 
 @media (max-width: 480px) {
@@ -118,5 +121,11 @@
     .footer__info:before {
         left: -15px;
         right: -15px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .footer__content {
+        margin-top: -8px;
     }
 }
